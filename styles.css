@@ -1,0 +1,100 @@
+body{
+    background-color: lightsteelblue;
+}
+
+nav{
+    background-color: white;
+    padding:0;
+}
+
+.navbar li{
+    display: inline 
+}
+
+nav h3{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: seagreen
+}
+
+h2{
+    color: green;
+    margin: 15px 0px;
+    padding: 0px 10px;
+}
+
+h3{
+    color: green;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+h5{
+    color: black;
+    margin: 15px 0px;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+p{
+    padding:20px;
+}
+
+#floated {
+    float: left;
+}
+
+#content{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: white
+}
+
+.thumbnail_1{
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+}
+
+.thumbnail_2{
+    align-items: center;
+    width: 100%;
+    /* height: 120px; */
+    padding: 0px;
+}
+
+thumbnail_3{
+    align-items: center;
+    width: 100%;
+    /* height: 120px; */
+    padding: 0px;
+    border: 5px solid #555;
+}
+
+#border {
+    border: 5px solid green;
+  }
+
+.box {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 5px 5px 5px;
+    color: black;
+    background-color: white;
+}
+
+.box_2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 5px 5px 5px;
+    color: black;
+    background-color: white;
+    border-image-width: 50px;
+    border-color: green
+}

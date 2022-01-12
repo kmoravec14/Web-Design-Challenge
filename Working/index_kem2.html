@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class = "navbar">
+        <h3>Latitude</h3>
+        <ul>
+            <li>Plots</li>
+            <li>Comparison</li>
+            <li>Data</li>
+        </ul>
+    </nav>
+    <div class = "container-fluid">
+        <div class = "row">
+            <div class = "col-md-12">
+            </div>
+        </div>
+        <div class ="row">
+            <div class = "col-md-8 bg-light">
+            <!-- <div id = "content"> -->
+                <h2>Summary: Latitude vs X</h2>
+                <hr>
+                <a target="blank" href="Resources/assets/images/Fig1.png">
+                    <img id="floated" class="thumbnail_1" src="Resources/assets/images/Fig1.png" alt="scatter plot 1 "></a>
+                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.                      
+                </p> 
+                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                </p>
+            </div>             
+            <div class = "col-md-4 bg-light">
+                <!-- <div class="p-3 mb-2 bg-light text-dark">.bg-light</div> -->
+            <!-- <div id = "content"> -->
+                <div class = "row">
+                    <div class = "col-md-12">
+                        <h2>Visualizations</h2>
+                        <hr>
+                        <div class = "row">
+                            <div class = "col-3 col-md-6">
+                                <a href="temp.html"></a><img class = "thumbnail_2" src="Resources/assets/images/Fig1.png" alt="scatter plot 1"/>
+                                </a>
+                            </div>
+                            <div class = "col-3 col-md-6">
+                                <a href="humidity.html"></a><img class = "thumbnail_2" src="Resources/assets/images/Fig2.png" alt="scatter plot 2"/>
+                                </a>
+                            </div>
+                            <div class = "col-3 col-md-6">
+                                <a href="cloudiness.html"></a><img class = "thumbnail_2" src="Resources/assets/images/Fig3.png" alt="scatter plot 3"/>
+                                </a>
+                            </div>
+                            <div class = "col-3 col-md-6">
+                                <a href="windspeed.html"></a><img class = "thumbnail_2" src="Resources/assets/images/Fig4.png" alt="scatter plot 4"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>       
+                </div>
+            </div>  
+            </div>   
+        </div>
+    </div>
+    </div>
+</body>
+</html>

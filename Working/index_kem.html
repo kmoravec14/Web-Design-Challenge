@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class = "navbar">
+        <h3>Latitude</h3>
+        <ul>
+            <li>Plots</li>
+            <li>Comparison</li>
+            <li>Data</li>
+        </ul>
+    </nav>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-8">
+                <div id = "content">
+                    <h2>Summary: Latitude vs X</h2>
+                        <a target="blank" href="Resources/assets/images/Fig1.png">
+                            <img id="floated"class="thumbnail_1" src="Resources/assets/images/Fig1.png" alt="scatter plot 1 "></a>
+                        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.  </p> 
+                        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </div>
+            </div>
+            <!--visualization adjustments-->
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <h3>Visualizations</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3 col-md-6">
+                            <a href="Resources/assets/images/Fig1.png"><img src="Resources/assets/images/Fig1.png" width="100%"  alt="temperature">
+                            </a> 
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="100%" alt="humidity"></a>
+                        </div>
+                   
+                        <div class="col-3 col-md-6">
+                            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" width="100%"  alt="cloudiness"></a>
+                        </div>
+
+                        <div class="col-3 col-md-6">
+                            <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png"width="100%"  alt="wind speed"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-dark">
+        <div class="footer-copyright text-center py-3">© Copyright Coding Bootcamp 2019
+        </div>      
+    </footer>
+<!-- </body>
+</html> -->
+
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget maximus mi. Donec placerat mattis varius. Duis non lacus nec odio iaculis mattis. Nulla quis tristique mi, lacinia cursus orci. In eu ex ut erat tincidunt scelerisque quis non eros. Integer nec ante ut sapien ullamcorper sollicitudin. Etiam blandit lacus eget urna iaculis facilisis. Morbi in hendrerit eros. Suspendisse sagittis elementum laoreet. Duis egestas consectetur faucibus. Cras non felis ac erat dapibus gravida ac eu nibh. Cras nec dignissim ligula. Nulla facilisis enim in risus blandit, sed tincidunt nulla sodales. Sed et tellus sed diam faucibus faucibus. Aliquam erat volutpat. Curabitur quis vehicula dui.</p> -->
+                </div>
+            </div>
+            <div class = "col-4">
+                <div id = "content">
+                    <h2>Visualizations</h2>
+                        <a target="blank" href="Resources/assets/images/Fig1.png"><img class="thumbnail_2" src="Resources/assets/images/Fig1.png" alt="scatter plot 1"></a>
+                        <a target="blank" href="Resources/assets/images/Fig2.png"><img class="thumbnail_2" src="Resources/assets/images/Fig2.png" alt="scatter plot 2"></a>
+                        <a target="blank" href="Resources/assets/images/Fig3.png"><img class="thumbnail_2" src="Resources/assets/images/Fig3.png" alt="scatter plot 3"></a>
+                        <a target="blank" href="Resources/assets/images/Fig4.png"><img class="thumbnail_2" src="Resources/assets/images/Fig4.png" alt="scatter plot 4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

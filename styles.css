@@ -1,11 +1,26 @@
 body{
     background-color: lightsteelblue;
+    /* background-color: white; */
 }
 
 nav{
     background-color: white;
     padding:0;
+    margin-left:0px;
 }
+
+.navbar-btn {
+    border-color: #ae142a;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ae142a;
+    height: 34px;
+    margin: 0;
+    white-space: nowrap;
+    padding: 6px 12px !important;
+  }
 
 .navbar li{
     display: inline 
@@ -30,6 +45,7 @@ h3{
     color: green;
     margin: 0px 0px;
     padding: 0px 0px;
+    margin-left: 0px;
 }
 
 h5{
